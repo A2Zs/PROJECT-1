@@ -1,7 +1,7 @@
 # PROJECT-1
 
-Welcome to my website
+Samira Portfolio
 
-## About me 
+## Building my first website  
 
 My journey to becoming a software developer 
