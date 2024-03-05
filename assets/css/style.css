@@ -74,6 +74,39 @@ flex: 1 0 auto;
 border-bottom: 1px solid #578d71; 
 }
 
+/* city image*/
+
+#city-outer{
+    height: 400px;
+    width: 100%;
+    overflow:hidden; 
+}
+
+#city-image{
+    height: 400px;
+    width: 100%; 
+    background: url(../images/london-skyline-2.jpg);
+
+    /*animates zoom effect on loading page*/
+
+animation-name: city-zoom;
+animation-duration: 5s; 
+animation-fill-mode: forwards; 
+}
+
+
+
+
+/* create the level of zoom for city image*/
+@keyframes city-zoom {
+    from {
+        transform: scale(1);
+    }
+        to {
+            transform: scale(1.1);
+        }
+    }
+
 .navbar{
     list-style-type: none;
     background-color:#e7dabc;
