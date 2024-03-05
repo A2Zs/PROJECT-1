@@ -33,9 +33,33 @@ h1, h2 {
     color:#578d71; 
 }
 
+h1{
+    text-align: center;
+}
+
 #logo {
     
-    font-size: 200; 
+    font-size: 280%;  
+}
+
+/* navigation links*/
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover {
+border-bottom: 1px solid #578d71; 
 }
 
 /*main*/ 
@@ -46,8 +70,8 @@ background-color: white;
 flex: 1 0 auto; 
 }
 
-h1{
-    text-align: center;
+.active{
+border-bottom: 1px solid #578d71; 
 }
 
 .navbar{
