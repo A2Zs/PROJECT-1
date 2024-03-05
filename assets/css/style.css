@@ -6,23 +6,36 @@
 * {
 padding: 0;
 margin: 0;
-box-sizing: border-box; 
+border: none; 
 }
 
 /*General styles*/
 
 body{
-    min-height: 100vh;
-    display: flex; 
-    flex-direction: column;
-    /*Generic preject styles*/ 
+   font-family: latto, sans-serif; 
+    font-weight: 300;
+
+    /*Generic project styles*/ 
     color:#578d71
 }
 
 
-/* Header*/
+/* Main Header*/
 header {
 background-color: rgb(218, 191, 129); 
+}
+
+/* headings and logo */
+h1, h2 {
+    font-family: Oswald, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#578d71; 
+}
+
+#logo {
+    
+    font-size: 200; 
 }
 
 /*main*/ 
